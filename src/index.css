@@ -1,0 +1,51 @@
+:root {
+  --paper: #f4ecd8;
+  --paper-edge: #e6dcc0;
+  --paper-shadow: #d6c9a3;
+  --ink: #2b2118;
+  --ink-soft: #5a4a3a;
+  --accent: #8b2e2e;
+  --accent-soft: #b85a5a;
+  --gold: #c9a54e;
+  --gold-bright: #f5e3a8;
+  --gold-dark: #8a6a2f;
+  --leather: #4f1c24;
+  --leather-light: #6d2a33;
+  --leather-dark: #2a0e13;
+  --lamp: #e8a54b;
+  --wood-dark: #2a1d13;
+  --wood: #3a2a1f;
+  --wood-light: #4a3528;
+
+  --serif: 'EB Garamond', 'Cormorant Garamond', Georgia, serif;
+  --display: 'Cormorant Garamond', Georgia, serif;
+  --script: 'Caveat', 'Brush Script MT', cursive;
+  --fell: 'IM Fell English', 'Cormorant Garamond', Georgia, serif;
+
+  color-scheme: light;
+  font-family: var(--serif);
+  color: var(--ink);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at center, var(--wood-light) 0%, var(--wood) 40%, var(--wood-dark) 100%),
+    var(--wood);
+  background-attachment: fixed;
+}

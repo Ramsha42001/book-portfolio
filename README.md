@@ -4,7 +4,7 @@ An interactive 3D portfolio. Walk in from the rain, look around a cozy reading r
 
 ![Demo: from the rainy doorstep into the reading room, then flipping through the portfolio book](docs/demo.gif)
 
-▶ **[Full-quality demo video (MP4, 1 min)](docs/demo.mp4)**
+▶ **[Full-quality demo video (MP4, 1 min)](https://github.com/Ramsha42001/book-portfolio/raw/main/docs/demo.mp4)**
 
 ## What's inside
 
